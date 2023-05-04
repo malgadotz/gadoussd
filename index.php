@@ -5,15 +5,15 @@ $serviceCode=$_POST["serviceCode"];
 $phoneNumber=$_POST["phoneNumber"];
 $text=$_POST["text"];
 
-if ($text = "")
+if ($text ="")
 {
     $response="CON what would you want to check \n";
     $response .="1. My Account No \n";
-    $response="2. My Phone Number ";
+    $response="2. My Phone Number ".$phoneNumber;
 }
 else if($text="1")
 {
-    $response="CON what account Information you want to check \n";
+    $response="CON budaaaa to check \n";
     $response .="1. Account Number \n";
     $response .="2. Account Balance \n";
 }
