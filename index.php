@@ -32,5 +32,5 @@ else if($text="1*2")
     $response ="END YourAccount Number is ".$accountNumber;
 }
 
-header('Content-type; text/plain');
+header('Content-type: text/plain');
 echo $response;
